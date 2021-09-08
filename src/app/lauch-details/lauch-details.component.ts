@@ -1,12 +1,12 @@
 import { Component, OnInit, ChangeDetectionStrategy } from '@angular/core';
 
 @Component({
-  selector: 'app-launch-list',
-  templateUrl: './launch-list.component.html',
-  styleUrls: ['./launch-list.component.css'],
+  selector: 'app-lauch-details',
+  templateUrl: './lauch-details.component.html',
+  styleUrls: ['./lauch-details.component.css'],
   changeDetection: ChangeDetectionStrategy.OnPush
 })
-export class LaunchListComponent implements OnInit {
+export class LauchDetailsComponent implements OnInit {
 
   constructor() { }
 
